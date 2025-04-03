@@ -355,7 +355,7 @@ nav{
 }
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 4   0%;
   }
 
   .swiper-slide {
@@ -383,6 +383,13 @@ nav{
   .swiper-slide {
     width: 30vw;
   }
+  .swiper-wrapper{
+    position: relative;
+    left: -34vw;
+  }
+  .swiper-wrapper:hover{
+    cursor: pointer;
+  }
 
 #main{
     /* background-color: #000; */
@@ -407,11 +414,47 @@ nav{
 }
 #footer h1{
     font-size: 22vw;
+    position: relative;
+    bottom: -17vh;
 }
 #footer-bottom{
     border-top: 1px solid #dadada;
     height: 10vh;
     width: 100%;
+    display: flex;
+    font-size: 22px;
+  justify-content: space-between;
+  padding: 0vw 2vw;
+}
+#circle{
+    position: absolute;
+  top: 0px;
+}
+#circle1{
+    width: 80vw;
+    position: absolute;
+    top: -374px;
+    height: 50vw;
+    border-radius: 50%;
+    filter: blur(60px);
+    background-color: red;
+    left: -500px;
+}
+#circle2{
+    width: 80vw;
+    position: absolute;
+    top: -374px;
+    height: 50vw;
+    border-radius: 50%;
+    filter: blur(60px);
+    background-color: red;
+    left: 43vw;
+}
+#circle3{
+
+}
+#circle4{
+
 }
 #all-project{
     width: 140px;
@@ -544,4 +587,37 @@ nav{
   margin-top: 30vh;
   margin-left: 8vw;
   border-left: 1px solid gray;
+}
+#con{
+    position: relative;
+    /* display: flex; */
+  top: 0vh;
+  left: 7vh;
+  font-size: 45px;
+  line-height: 45px;
+}
+#con h4 a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+#option{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 30vh; */
+}
+#con1 p{
+    width: 400px;
+  font-size: 25px;
+  margin-bottom: 1vh;
+}
+#con1 input{
+    background:none;
+  color: white;
+  border:none;
+  border-bottom: white 1px solid;
+  font-size: 23px;
 }
