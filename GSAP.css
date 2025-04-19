@@ -338,7 +338,6 @@ nav{
 #fixed-image{
     height: 30vw;
     width: 24vw;
-    background-color: red;
     border-radius: 10px;
     position: fixed;
     z-index: 99;
